@@ -10,7 +10,7 @@ System.out.println("Cannot divide by zero!");
 } catch (ArrayIndexOutOfBoundsException e) {
 System.out.println("Array index is invalid!");
 } catch (Exception e) {
-System.out.println("General exception occurred: " + e.getMess
+System.out.println("General exception occurred: " + e.getMessage());
 }
 }
 }
